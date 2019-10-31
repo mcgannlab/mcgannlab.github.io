@@ -1,0 +1,278 @@
+html, body, h1, h2, h3, h4, ul, li {
+	margin: 0;
+	padding: 0;
+}
+h1 img {
+	display: block;
+}
+img {
+	border: 0;
+}
+a {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #FFA405;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.more {
+	text-align: right;
+}
+.clear {
+	clear: both;
+}
+
+body {
+	background: #000000;
+	font: 11px arial, sans-serif;
+	color: #464544;
+	padding-bottom: 10px;
+}
+
+
+/** layout **/
+#wrapper {
+	width: 678px;
+	min-height: 750px;
+	_height: 750px;
+	background: url(images/header.jpg) no-repeat;
+  position: relative;
+}
+
+h1 {
+  padding: 25px 0 0 30px;
+  font: 32px "arial black", arial, sans-serif;
+  font-weight:  bold;
+  font-style: normal;
+  color: #901315;
+}
+
+h1 em {
+  color: #ffffff;
+  font-weight: bold;
+  font-style: normal;
+  position: relative;
+  top: -4px;
+}
+
+h1 em2 {
+  color: #901315;
+  font-weight: bold;
+  font-style: normal;
+  position: relative;
+  top: -4px;
+}
+
+/* nav */
+
+#nav {
+  position: absolute;
+  top: 0px;
+  left: 450px;
+  width: 500px;
+}
+#nav li {
+  float: left;
+  background: url(images/nav_left.gif) no-repeat;
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 45px;
+  line-height: 1.1;
+}
+#nav span {
+  display: block;
+  font-size: 28px;
+}
+#nav a {
+  color: #FFFFFF;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/** topcontent **/
+
+#topcon {
+  background: url(images/rounded_rec.png) no-repeat;
+  width: 580px;
+  position: absolute;
+  top: 80px;
+  left: 455px;
+  color: #fff;
+}
+#topcon-inner {
+  margin: 25px 40px 41px 25px;
+  height: 250px;
+  overflow: auto;
+}
+#topcon h2 {
+  font-size: 14px;
+  text-align: center;
+}
+
+/** Body **/
+
+#content {
+  width: 1070px;
+  position: absolute;
+  color: #fff;
+  top: 299px;
+  left: 120px;
+}
+#content_research {
+  width: 800px;
+  position: absolute;
+  color: #fff;
+  top: 100px;
+  left: 270px;
+}
+
+#content a {
+  color: #fff;
+}
+#content a:hover {
+  color: #fee;
+}
+#body {
+  border: 3px solid white;
+  background: #901315;
+  padding: 18px;
+}
+
+.box {
+  float: left;
+  width: 240px;
+  background: #730F11;
+  margin-right: 18px;
+}
+.box-t { background: top url(images/box_t.gif) repeat-x; }
+.box-r { background: right url(images/box_r.gif) repeat-y; }
+.box-b { background: bottom url(images/box_b.gif) repeat-x; }
+.box-l { background: left url(images/box_l.gif) repeat-y; }
+.box-tr { background: top right url(images/box_tr.gif) no-repeat; }
+.box-br { background: bottom right url(images/box_br.gif) no-repeat; }
+.box-bl { background: bottom left url(images/box_bl.gif) no-repeat; }
+.box-tl { background: top left url(images/box_tl.gif) no-repeat; }
+
+.box-tl {
+  padding: 13px 18px;
+}
+
+.box p {
+  margin: 1em 0;
+}
+
+p.more {
+  margin: 0;
+}
+
+#research_areas {
+  width: 240px;
+}
+#research_areas .box-tl {
+  padding-bottom: 22px;
+}
+
+#sub_page {
+  width: 760px;
+}
+
+#affiliations ul {
+  margin: 1em 0;
+}
+#affiliations li {
+  list-style: none;
+  margin: 0.9em 0;
+}
+#affiliations ul a {
+  text-decoration: none;
+}
+#affiliations ul a:hover {
+  text-decoration: underline;
+}
+
+#affiliations {
+  margin-left: 18px;
+  margin-right: 0px;
+}
+
+#new {
+  margin-right: 0;
+}
+#new .box-tl {
+  padding-bottom: 18px;
+}
+#new p {
+  margin-top: 0;
+  margin-bottom: 3.3em;
+}
+
+#body h2 {
+  font-size: 12px;
+  text-align: right;
+  margin-bottom: 1.5em;
+}
+#body h3 {
+  font-size: 9px;
+  color: #FFEA00;
+}
+#body h2_subpage {
+  font-size: 16px;
+  color: #FFEA00;
+  font-weight: bold;
+  text-align: left;
+}
+
+#body h4 {
+  font-size: 16px;
+  color: #FFEA00;
+  font-weight: bold;
+  text-align: left;
+}
+
+#body h5 {
+  font-size: 12px;
+  text-align: left;
+  font-weight: normal;
+}
+
+#body subpage_text {
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 1.5em;
+}
+
+#body .more a {
+  font-weight: bold;
+  text-decoration: none;
+}
+#body .more a:hover {
+  text-decoration: underline;
+}
+#body .hr-yellow {
+  border-top: 1px solid #FFEA00;
+  padding-bottom: 1em;
+  margin-top: 1em;
+}
+
+/** footer **/
+#footer {
+  text-align: center;
+}
+#footer p, #footer ul {
+  margin: 0.8em;
+}
+#footer ul {
+  margin-top: 1.2em;
+}
+#footer li {
+  display: inline;
+  list-style: none;
+}
+
